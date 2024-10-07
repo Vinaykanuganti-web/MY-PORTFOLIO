@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header h1{
+    margin: 0px;
+}
+    
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bolder;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: chocolate;
+    font-size: large;
+    color: cornsilk;
+}
+.button{
+    height: 40px;
+    width: 140px;
+    border-radius: 50px;
+}
+.button:hover{
+    color:cornsilk;
+    background-color: chocolate;
+}
+.shift{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+img{
+    height: 190px;
+    width: 190px;
+    border-radius: 100px; 
+}
+main{
+    height: 100vh;
+    border: 2px solid black;
+    
+
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    border: 2px solid black;
+}
+section span{
+    color: chocolate;
+}
+.skill{
+    font-family: monospace;
+    font-size: 30px;
+    font-weight: bold;
+}
+ol li{
+    font-size: 20px;
+    font-weight: 40px;
+}
+footer{
+    background-color: black;
+    margin-top: 600px;
+    margin-left: 2px;
+    margin-right: 2px;
+    padding: 50px;
+    height: 50px;
+    border: 2px solid black;
+
+}
+.foot{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.foot a{
+    text-decoration: none;
+    color: cornsilk;
+}
+.foot a:hover{
+    color: chocolate;
+}
+footer h1{
+    color: chocolate;
+    font-size: medium;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+marquee{
+    background-color: red;
+    color: cornsilk;
+    margin-top: 2px;
+}
